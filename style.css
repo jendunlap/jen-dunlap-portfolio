@@ -367,6 +367,7 @@ body::-webkit-scrollbar {
   align-items: center;
   overflow-y: auto;
   max-height: 600px;
+  width: 27em
 }
 
 .projectInfo {
@@ -645,6 +646,103 @@ body::-webkit-scrollbar {
 
 .aboutPhoto {
   padding: 0 0 0 20px;
+}
+
+/* PROJECT PAGE */
+
+.projectPage {
+  width: 100%
+}
+
+.projectHeader {
+  font-size: 4em;
+}
+
+.projectInformation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%
+}
+
+.projectImages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto;
+  max-height: 220px;
+}
+
+.projectTag {
+  font-size: 1.7em;
+}
+
+.projectCopy {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+  text-align: justify;
+  margin: 4px;
+  text-justify: justify;
+  width: 30em;
+}
+
+.projectCopyGuest {
+  text-align: center;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 1em;
+}
+
+.technology {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 1.2em;
+  text-align: center;
+  margin: 1em 0 .5em 0;
+}
+
+.projectTechnology {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+  text-align: center;
+  margin: 5px 0;
+}
+
+.projectLinks {
+  display: flex;
+  /* flex-direction: row; */
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.projectlink {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /* margin: 5px 0; */
+  text-decoration: none;
+}
+
+.projectLinkName {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 1em;
+  text-align: center;
+  /* margin: 5px 0; */
+  text-decoration: none;
+  padding: 0 1em 0 0
 }
 
 }
